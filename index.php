@@ -68,8 +68,12 @@
 							<div class="col-12">
 
 								<h3 class="text-medium sub wow fadeInUp">
-									Vantagem Competitiva
+									Vantagem competitiva
 								</h3>
+
+								<h2 class="title-medium title wow fadeInUp">
+									Acessível pela nuvem, em tempo real
+								</h2>
 
 								<div class="video-wrapper wow fadeInUp">
 									<iframe width="560" height="315" src="https://www.youtube.com/embed/zFcTaXwbaOU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -394,7 +398,7 @@
 									Conte com o suporte de um BI estruturado dentro das suas necessidades
 								</h2>
 
-								<form action="https://formsubmit.co/email@email.com" method="post" id="contact-form">
+								<form action="https://formsubmit.co/safegold.bi@safegold.com.br" method="post" id="contact-form">
 
 									<input type="hidden" name="_next" value="<?php echo($siteUrl); ?>/contact-success">
 									<input type="text" name="_honey" style="display: none">

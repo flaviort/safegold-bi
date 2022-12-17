@@ -92,7 +92,7 @@
 
 .title-small {
 	font-size: 20px;
-	line-height: 1.4;
+	line-height: 1.2;
 	letter-spacing: .01rem;
 
 	@media #{$mq-lg-min} {
@@ -103,7 +103,7 @@
 
 .title-medium-small {
 	font-size: 22px;
-	line-height: 1.4;
+	line-height: 1.2;
 
 	@media #{$mq-sm-min} {
 		font-size: 24px;
@@ -115,7 +115,6 @@
 
 	@media #{$mq-lg-min} {
 		font-size: 32px;
-		line-height: 1.2;
 	}
 
 	@media #{$mq-xl-min} {
@@ -125,11 +124,10 @@
 
 .title-medium {
 	font-size: 28px;
-	line-height: 1.4;
+	line-height: 1.2;
 
 	@media #{$mq-xs-min} {
 		font-size: 32px;
-		line-height: 1.2;
 	}
 
 	@media #{$mq-sm-min} {
