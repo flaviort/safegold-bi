@@ -1,0 +1,40 @@
+.floating-whatsapp {
+    position: fixed;
+    z-index: 9;
+    cursor: pointer;
+    display: none;
+    padding: .8rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: $green;
+    color: $purple-dark;
+    border-radius: 50%;
+    transition: background-color .3s;
+    bottom: .5rem;
+    right: .5rem;
+
+    @media #{$mq-sm-min} {
+        bottom: .75rem;
+        right: .75rem;
+    }
+
+    @media #{$mq-md-min} {
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    @media #{$mq-xl-min} {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $white;
+        transform: scale(1.1);
+    }
+
+    svg {
+        transform: translateY(-.035rem);
+    }
+}

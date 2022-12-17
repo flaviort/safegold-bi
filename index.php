@@ -10,12 +10,19 @@
 				<?php include('includes/top-menu.php'); ?>
 			</header>
 
+			<a href="https://web.whatsapp.com/send?phone=554188044910" class="floating-whatsapp">
+				<?php echo file_get_contents("assets/svg/whatsapp.svg"); ?>
+			</a>
+
 			<main id="main-content">
 
 				<div class='stars'></div>
 				<div class='twinkling'></div>
 
 				<section id="banner">
+
+					<img src="assets/img/circle.png" alt="" class="circle-bg wow fadeIn">
+
 					<div class="container container-big">
 						<div class="row">
 							<div class="col-12">
@@ -387,7 +394,13 @@
 									Conte com o suporte de um BI estruturado dentro das suas necessidades
 								</h2>
 
-								<form action="#" id="contact-form">
+								<form action="https://formsubmit.co/email@email.com" method="post" id="contact-form">
+
+									<input type="hidden" name="_next" value="<?php echo($siteUrl); ?>/contact-success">
+									<input type="text" name="_honey" style="display: none">
+									<input type="hidden" name="_captcha" value="false">
+									<input type="hidden" name="_template" value="box">
+									<input type="hidden" name="_subject" value="Formulário de Contato">
 
 									<div class="form-line wow fadeInUp">
 										<div class="input-wrap">
@@ -447,7 +460,9 @@
 			</main>
 
 			<footer>
+				
 				<?php include('includes/footer.php'); ?>
+				<?php include('includes/popups.php'); ?>
 
 				<!-- scripts -->
 				<script src="assets/js/framework.js"></script>

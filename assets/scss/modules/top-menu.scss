@@ -36,6 +36,7 @@
             .logo {
                 display: block;
                 width: 12rem;
+                position: relative;
 
                 @media #{$mq-md-min} {
                     width: 15rem;
@@ -56,6 +57,15 @@
 
                 svg {
                     transition: .3s;
+
+                    &:last-child {
+                        position: absolute;
+                        top: -.1rem;
+                        right: -.1rem;
+                        width: auto;
+                        height: 100%;
+                        animation: rotation 10s linear infinite;
+                    }
                 }
             }
 

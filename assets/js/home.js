@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+	// show success message after form submit
+	$(document).ready(function() {
+		if (window.location.href.indexOf("contact-success") > -1) {
+			$.fancybox.open($("#contact-success"));
+		};
+	});
+
+	// hide items ons scroll
+	$(document).on('scroll', function() {
+		if ($(this).scrollTop() > 100) {
+			$('.floating-whatsapp').fadeIn(900);
+		} else {
+			$('.floating-whatsapp').fadeOut(300);
+		}
+	});
+
 	// animated numbers
 	var waypoint = new Waypoint({
 		element: $('.purple-box'),

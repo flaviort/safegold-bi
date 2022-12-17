@@ -1,5 +1,32 @@
 .popup {
     display: none;
 
-    
+    .wrap {
+        display: block;
+        background-color: $purple-dark;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 3rem 1rem;
+        width: 50rem;
+        max-width: calc(100% - .5rem);
+        margin: auto;
+        color: $white;
+
+        .title {
+            color: $green;
+        }
+
+        .desc {
+            display: block;
+            margin: .5rem auto 1.5rem auto;
+
+            @media #{$mq-sm-min} {
+                margin: 1rem auto 2.5rem auto;
+            }
+        }
+
+        .hollow-white-button {
+            margin: auto;
+        }
+    }
 }

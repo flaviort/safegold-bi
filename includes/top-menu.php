@@ -6,7 +6,8 @@
                 <div class="left">
 
                     <a href="./" class="logo">
-                        <?php echo file_get_contents("assets/svg/logo.svg"); ?>
+                        <?php echo file_get_contents("assets/svg/logo-no-circle.svg"); ?>
+                        <?php echo file_get_contents("assets/svg/logo-circle.svg"); ?>
                     </a>
 
                     <nav class="menu title-small">

@@ -27,103 +27,126 @@ body.home {
     }
 
     #banner {
-        .col-12 {
-            position: relative;
+        .circle-bg {
+            position: absolute;
+            z-index: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            margin-left: -25rem;
+            display: none;
 
-            .big-image {
-                width: 100%;
-                margin: 4rem auto -.5rem auto;
-
-                @media #{$mq-sm-min} {
-                    margin-bottom: -3rem;
-                }
-                
-                @media #{$mq-md-min} {
-                    margin: 0;
-                    position: absolute;
-                    z-index: 0;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    left: 40%;
-                    width: auto;
-                    height: 100%;
-                    max-width: 60vw;
-                    object-fit: contain;
-                }
-
-                @media #{$mq-xl-min} {
-                    left: 45%;
-                    height: 95%;
-                    max-width: 55vw;
-                }
+            @media #{$mq-md-min} {
+                display: block;
             }
 
-            .wrap {
+            @media #{$mq-lg-min} {
+                margin-left: -20rem;
+            }
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+
+            .col-12 {
                 position: relative;
-                z-index: 2;
-                display: block;
-                text-align: center;
-                margin: auto;
-                width: 95%;
 
-                @media #{$mq-sm-min} {
-                    width: 90%;
-                }
-
-                @media #{$mq-md-min} {
-                    margin: 0;
-                    text-align: left;
-                    width: 55%;
-                    padding: 14rem 0;
-                }
-
-                @media #{$mq-xl-min} {
-                    width: 50%;
-                    padding: 16rem 0;
-                }
-
-                @media #{$mq-2xl-min} {
-                    padding: 18rem 0;
-                }
-
-                .sub {
-                    text-transform: uppercase;
-                    letter-spacing: 1rem;
-                    padding-left: .2rem;
-                }
-
-                .title {
-                    display: block;
-                    margin: .5rem 0 .25rem 0;
+                .big-image {
+                    width: 100%;
+                    margin: 4rem auto -.5rem auto;
 
                     @media #{$mq-sm-min} {
-                        margin: 1rem 0 .75rem 0;
+                        margin-bottom: -3rem;
                     }
                     
                     @media #{$mq-md-min} {
-                        margin: 1.5rem 0 1rem 0;
+                        margin: 0;
+                        position: absolute;
+                        z-index: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 40%;
+                        width: auto;
+                        height: 100%;
+                        max-width: 60vw;
+                        object-fit: contain;
+                    }
+
+                    @media #{$mq-xl-min} {
+                        left: 45%;
+                        height: 95%;
+                        max-width: 55vw;
                     }
                 }
 
-                .text {
-                    color: $green;
+                .wrap {
+                    position: relative;
+                    z-index: 2;
                     display: block;
-                    margin-bottom: 1rem;
+                    text-align: center;
+                    margin: auto;
+                    width: 95%;
 
                     @media #{$mq-sm-min} {
-                        margin-bottom: 2rem;
+                        width: 90%;
                     }
-
-                    @media #{$mq-md-min} {
-                        margin-bottom: 3rem;
-                    }
-                }
-
-                .hollow-white-button {
-                    margin: auto;
 
                     @media #{$mq-md-min} {
                         margin: 0;
+                        text-align: left;
+                        width: 55%;
+                        padding: 14rem 0;
+                    }
+
+                    @media #{$mq-xl-min} {
+                        width: 50%;
+                        padding: 16rem 0;
+                    }
+
+                    @media #{$mq-2xl-min} {
+                        padding: 18rem 0;
+                    }
+
+                    .sub {
+                        text-transform: uppercase;
+                        letter-spacing: 1rem;
+                        padding-left: .2rem;
+                    }
+
+                    .title {
+                        display: block;
+                        margin: .5rem 0 .25rem 0;
+
+                        @media #{$mq-sm-min} {
+                            margin: 1rem 0 .75rem 0;
+                        }
+                        
+                        @media #{$mq-md-min} {
+                            margin: 1.5rem 0 1rem 0;
+                        }
+                    }
+
+                    .text {
+                        color: $green;
+                        display: block;
+                        margin-bottom: 1rem;
+
+                        @media #{$mq-sm-min} {
+                            margin-bottom: 2rem;
+                        }
+
+                        @media #{$mq-md-min} {
+                            margin-bottom: 3rem;
+                        }
+                    }
+
+                    .hollow-white-button {
+                        margin: auto;
+
+                        @media #{$mq-md-min} {
+                            margin: 0;
+                        }
                     }
                 }
             }
