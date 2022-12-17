@@ -40,7 +40,7 @@
 									</h1>
 
 									<h2 class="text title-medium wow fadeIn" data-wow-delay=".4s">
-										Otimize o desempenho da sua empresa.
+										BI por quem entende de gestão.
 									</h2>
 
 									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".6s">
