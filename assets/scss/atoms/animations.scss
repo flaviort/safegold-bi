@@ -1,0 +1,17 @@
+.wow {
+	animation-duration: 2s;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+@keyframes move-twink-back {
+	from { background-position: 0 0; }
+	to { background-position: -10000px 5000px; }
+}

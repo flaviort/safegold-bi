@@ -1,0 +1,98 @@
+.form-line {
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+
+    @media #{$mq-sm-min} {
+        margin-bottom: 1.5rem;
+    }
+
+    @media #{$mq-lg-min} {
+        margin-bottom: 2rem;
+    }
+
+    &.error {
+        .input-wrap {
+            .input {
+                border-color: $red;
+                color: $red;
+            }
+
+            label.error {
+                display: block;
+                margin-top: .5rem;
+                color: $red;
+            }
+        }
+    }
+
+    .input-wrap {
+        position: relative;
+        display: block;
+        text-align: left;
+        
+        .input {
+            display: block;
+            width: 100%;
+            position: relative;
+            z-index: 0;
+            box-shadow: none;
+            border-radius: 0;
+            border: none;
+            background-color: $purple-dark;
+            border-bottom: 1px solid $purple-light;
+            color: $white;
+            padding: 1rem;
+
+            @media #{$mq-sm-min} {
+                padding: 1.25rem;
+            }
+
+            @media #{$mq-lg-min} {
+                padding: 1.5rem;
+            }
+
+            &::placeholder {
+                color: currentColor;
+                opacity: .5;
+            }
+
+            &[type=number] {
+                appearance: textfield;
+
+                &::-webkit-outer-spin-button,
+                &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+            }
+
+            &.select {
+                appearance: none;
+                text-indent: 1px;
+                text-overflow: '';
+                cursor: pointer;
+            }
+
+            &.textarea {
+                resize: vertical;
+                height: 8rem;
+                min-height: 8rem;
+
+                @media #{$mq-sm-min} {
+                    height: 10rem;
+                    min-height: 10rem;
+                }
+
+                @media #{$mq-lg-min} {
+                    height: 12rem;
+                    min-height: 12rem;
+                }
+            }
+        }
+    }
+}
+
+input[type="submit"] {
+    display: none;
+}
