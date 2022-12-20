@@ -64,7 +64,7 @@
                             <?php echo file_get_contents("assets/svg/instagram.svg"); ?>
                         </a>
 
-                        <a href="https://www.youtube.com/@safegoldgerenciamentodecap8596" target="_blank">
+                        <a href="https://www.youtube.com/@safegold_bi" target="_blank">
                             <?php echo file_get_contents("assets/svg/youtube.svg"); ?>
                         </a>
 

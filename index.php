@@ -40,7 +40,7 @@
 									</h1>
 
 									<h2 class="text title-medium wow fadeIn" data-wow-delay=".4s">
-										BI por quem entende de gestão e inteligência por quem decide.
+										BI por quem entende de gestão e inteligência por quem decide
 									</h2>
 
 									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".6s">
@@ -93,7 +93,7 @@
 
 									</a>
 
-									<a href="https://www.youtube.com/@safegoldgerenciamentodecap8596" target="_blank" class="hollow-white-button wow fadeInUp">
+									<a href="https://www.youtube.com/@safegold_bi" target="_blank" class="hollow-white-button wow fadeInUp">
 											
 										<span class="title-medium-small">
 											Veja mais vídeos
