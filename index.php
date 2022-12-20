@@ -40,7 +40,7 @@
 									</h1>
 
 									<h2 class="text title-medium wow fadeIn" data-wow-delay=".4s">
-										BI por quem entende de gestão.
+										BI por quem entende de gestão e inteligência por quem decide.
 									</h2>
 
 									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".6s">
@@ -76,20 +76,36 @@
 								</h2>
 
 								<div class="video-wrapper wow fadeInUp">
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/zFcTaXwbaOU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/AG9xPI_KTu0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 
-								<a href="https://www.youtube.com/@safegoldgerenciamentodecap8596" target="_blank" class="hollow-white-button wow fadeInUp">
-										
-									<span class="title-medium-small">
-										Veja mais vídeos
-									</span>
+								<div class="buttons">
 
-									<span class="circle">
-										<?php echo file_get_contents("assets/svg/arrow-right.svg"); ?>
-									</span>
+									<a href="https://youtu.be/LqhUkAyrJHs" data-fancybox class="hollow-white-button wow fadeInUp">
+											
+										<span class="title-medium-small">
+											Entenda nossa marca
+										</span>
 
-								</a>
+										<span class="circle">
+											<?php echo file_get_contents("assets/svg/arrow-right.svg"); ?>
+										</span>
+
+									</a>
+
+									<a href="https://www.youtube.com/@safegoldgerenciamentodecap8596" target="_blank" class="hollow-white-button wow fadeInUp">
+											
+										<span class="title-medium-small">
+											Veja mais vídeos
+										</span>
+
+										<span class="circle">
+											<?php echo file_get_contents("assets/svg/arrow-right.svg"); ?>
+										</span>
+
+									</a>
+
+								</div>
 
 							</div>
 						</div>
@@ -219,7 +235,7 @@
 												</p>
 
 												<p class="wow fadeInUp">
-													Recuso X <br />
+													Recurso X <br />
 													custo financeiro
 												</p>
 
@@ -233,7 +249,7 @@
 											<p class="text-medium desc wow fadeInUp">
 												O <strong>Safegold BI</strong> é uma ferramenta para ágil tomada de decisão, com informações assertivas e precisas na palma da sua mão, full time.<br /><br />
 
-												Frotas, negociações, compras, custos, vendas, e quaisquer outras  áreas da empresa, tudo o que você precisa ver, na hora exata que  você quer saber.
+												Frotas, negociações, compras, custos, vendas e outras áreas da empresa, tudo o que você precisa ver, na hora exata que você quer saber.
 											</p>
 
 										</div>
@@ -400,7 +416,7 @@
 
 								<form action="https://formsubmit.co/safegold.bi@safegold.com.br" method="post" id="contact-form">
 
-									<input type="hidden" name="_next" value="<?php echo($siteUrl); ?>/contact-success">
+									<input type="hidden" name="_next" value="<?php echo($siteUrl); ?>/#contact-success">
 									<input type="text" name="_honey" style="display: none">
 									<input type="hidden" name="_captcha" value="false">
 									<input type="hidden" name="_template" value="box">

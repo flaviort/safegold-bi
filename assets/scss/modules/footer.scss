@@ -57,30 +57,20 @@
             }
         }
 
-        .social {
+        .paanda {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: auto;
             column-gap: .75rem;
+            transition: .3s;
+            color: $purple-light;
+            min-width: 6rem;
+            width: 6rem;
 
             &:hover,
             &:focus {
                 color: $green;
-            }
-
-            span {
-                color: $green;
-                display: none;
-
-                @media #{$mq-2xl-min} {
-                    display: block;
-                }
-            }
-
-            svg {
-                min-width: 1.75rem;
-                width: 1.75rem;
-                height: 1.75rem;
             }
         }
     }

@@ -1,4 +1,4 @@
-<?php $siteUrl = "https://paandadesign.com.br/clientes/safegold-bi"; ?>
+<?php $siteUrl = "https://safegoldbi.com.br"; ?>
 
 <head>
 

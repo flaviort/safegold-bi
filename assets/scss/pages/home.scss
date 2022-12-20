@@ -100,11 +100,12 @@ body.home {
                     }
 
                     @media #{$mq-xl-min} {
-                        width: 50%;
+                        width: 45%;
                         padding: 16rem 0;
                     }
 
                     @media #{$mq-2xl-min} {
+                        width: 40%;
                         padding: 18rem 0;
                     }
 
@@ -205,10 +206,10 @@ body.home {
 
         .video-wrapper {
             display: block;
-            margin: 1rem auto 2rem auto;
+            margin: 1rem auto 1.5rem auto;
             
             @media #{$mq-sm-min} {
-                margin: 2rem auto 3rem auto;
+                margin: 2rem auto;
             }
 
             @media #{$mq-lg-min} {
@@ -220,8 +221,25 @@ body.home {
             }
         }
 
-        .hollow-white-button {
-            margin: auto;
+        .buttons {
+            @media #{$mq-lg-min} {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 2rem;
+            }
+
+            .hollow-white-button {
+                margin: .5rem auto;
+
+                @media #{$mq-sm-min} {
+                    margin: 1rem auto;
+                }
+
+                @media #{$mq-lg-min} {
+                    margin: 0;
+                }
+            }
         }
     }
 
