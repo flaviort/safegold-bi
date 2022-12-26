@@ -27,7 +27,7 @@
 						<div class="row">
 							<div class="col-12">
 
-								<img src="assets/img/banner.png" alt="BI" class="big-image wow fadeIn" data-wow-delay=".8s">
+								<img src="assets/img/banner.png" alt="BI" class="big-image wow fadeIn" data-wow-delay="1s">
 
 								<div class="wrap">
 									
@@ -39,11 +39,12 @@
 										Power BI
 									</h1>
 
-									<h2 class="text title-medium wow fadeIn" data-wow-delay=".4s">
-										BI por quem entende de gestão e inteligência por quem decide
+									<h2 class="text title-medium">
+										<span class="wow fadeIn" data-wow-delay=".4s">BI por quem entende de gestão</span> <br />
+										<span class="wow fadeIn" data-wow-delay=".6s">Inteligência para quem decide</span>
 									</h2>
 
-									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".6s">
+									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".8s">
 										
 										<span class="title-medium-small">
 											Quero conhecer
@@ -338,10 +339,6 @@
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/farimax.png" alt="Farmiax - Indústria e Comércio de Farinhas Eireli">
-									</div>
-
-									<div class="box wow fadeInUp">
 										<img src="assets/img/clients/mjm.png" alt="Grupo MJM - Securitizadora">
 									</div>
 
@@ -487,6 +484,18 @@
 				<!-- scripts -->
 				<script src="assets/js/framework.js"></script>
 				<script src="assets/js/home.js" defer></script>
+
+				<!-- hotjar -->
+				<script>
+					(function(h,o,t,j,a,r){
+						h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+						h._hjSettings={hjid:3298929,hjsv:6};
+						a=o.getElementsByTagName('head')[0];
+						r=o.createElement('script');r.async=1;
+						r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+						a.appendChild(r);
+					})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+				</script>
 
 			</footer>
 
