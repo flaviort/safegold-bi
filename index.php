@@ -39,10 +39,23 @@
 										Power BI
 									</h1>
 
-									<h2 class="text title-medium">
-										<span class="wow fadeIn" data-wow-delay=".4s">BI por quem entende de gestão</span> <br />
-										<span class="wow fadeIn" data-wow-delay=".6s">Inteligência para quem decide</span>
-									</h2>
+									<div class="title-medium title-slider swiper-container wow fadeIn" data-wow-delay=".4s">
+										<div class="swiper-wrapper">
+
+											<div class="swiper-slide">
+												<h2>
+													BI por quem entende de gestão
+												</h2>
+											</div>
+
+											<div class="swiper-slide">
+												<h2>
+													Inteligência para quem decide
+												</h2>
+											</div>
+
+										</div>
+									</div>
 
 									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".8s">
 										

@@ -16,6 +16,28 @@ $(document).ready(function() {
 		}
 	});
 
+	// title slider
+	var title_slider = new Swiper ('.title-slider', {
+		slidesPerView: 1,
+		allowTouchMove: false,
+		disableOnInteraction: true,
+		autoHeight: true,
+		calculateHeight: true,
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true
+		},
+		autoplay: {
+			delay: 3000,
+		},
+		speed: 600,
+	});
+
+	// correct services slider size on initial load
+	setTimeout(function(){ 
+		title_slider.updateAutoHeight(300)
+	}, 200);
+
 	// animated numbers
 	var waypoint = new Waypoint({
 		element: $('.purple-box'),

@@ -124,14 +124,15 @@ body.home {
                         }
                         
                         @media #{$mq-md-min} {
-                            margin: 1.5rem 0 1rem 0;
+                            margin: 1.5rem 0;
                         }
                     }
 
-                    .text {
+                    .title-slider {
                         color: $green;
                         display: block;
                         margin-bottom: 1rem;
+                        position: relative;
 
                         @media #{$mq-sm-min} {
                             margin-bottom: 2rem;
@@ -139,6 +140,19 @@ body.home {
 
                         @media #{$mq-md-min} {
                             margin-bottom: 3rem;
+                        }
+
+                        .swiper-slide {
+                            &.swiper-slide-active {
+                                h2 {
+                                    transform: none;
+                                }
+                            }
+
+                            h2 {
+                                transform: translateY(2rem);
+                                transition: .6s;
+                            }
                         }
                     }
 
