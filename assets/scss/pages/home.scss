@@ -163,6 +163,22 @@ body.home {
                             margin: 0;
                         }
                     }
+
+                    .logo-ms {
+                        display: block;
+                        width: 5rem;
+                        margin: 1.25rem auto 0 auto;
+
+                        @media #{$mq-sm-min} {
+                            margin-top: 2rem;
+                            width: 6rem;
+                        }
+
+                        @media #{$mq-md-min} {
+                            width: 8rem;
+                            margin: 3rem 0 0 0;
+                        }
+                    }
                 }
             }
         }

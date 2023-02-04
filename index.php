@@ -10,7 +10,7 @@
 				<?php include('includes/top-menu.php'); ?>
 			</header>
 
-			<a href="https://web.whatsapp.com/send?phone=554188044910" class="floating-whatsapp">
+			<a href="https://api.whatsapp.com/send/?phone=554188044910&text=Ol%C3%A1+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+Safegold+BI&type=phone_number&app_absent=0" class="floating-whatsapp">
 				<?php echo file_get_contents("assets/svg/whatsapp.svg"); ?>
 			</a>
 
@@ -68,6 +68,8 @@
 										</span>
 
 									</a>
+
+									<img src="assets/img/microsoft-partner.png" alt="Microsoft Partner" class="logo-ms wow fadeInUp">
 
 								</div>
 
@@ -273,7 +275,7 @@
 
 								<div class="bottom">
 
-									<a href="http://safegold.com.br/demonstracao-bi/" target="_blank" class="hollow-white-button wow fadeInUp">
+									<a href="https://app.powerbi.com/view?r=eyJrIjoiZjIzOGM5YjYtNzg4NC00Njc0LTlmY2ItNzRkN2M1OGJjNjZmIiwidCI6Ijk0MmRiNmIyLWVjOWEtNDY4Mi05ZGY1LTM5OWYwMjE3NzFkMCJ9&pageName=ReportSectionbf7b9b10a01585009d73" data-fancybox data-type="iframe" class="hollow-white-button wow fadeInUp">
 										
 										<span class="title-medium-small">
 											Veja um exemplo em tempo real
@@ -385,6 +387,10 @@
 
 									<div class="box wow fadeInUp">
 										<img src="assets/img/clients/ipcp.png" alt="IPCP - Cirurgia Plástica">
+									</div>
+
+									<div class="box wow fadeInUp">
+										<img src="assets/img/clients/facicredi.png" alt="Facicredi">
 									</div>
 
 								</div>
