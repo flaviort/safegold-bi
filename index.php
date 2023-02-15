@@ -10,7 +10,7 @@
 				<?php include('includes/top-menu.php'); ?>
 			</header>
 
-			<a href="https://api.whatsapp.com/send/?phone=554188044910&text=Ol%C3%A1+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+Safegold+BI&type=phone_number&app_absent=0" class="floating-whatsapp">
+			<a href="https://api.whatsapp.com/send/?phone=554188412253&text=Ol%C3%A1+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+Safegold+BI&type=phone_number&app_absent=0" class="floating-whatsapp">
 				<?php echo file_get_contents("assets/svg/whatsapp.svg"); ?>
 			</a>
 
