@@ -20,7 +20,7 @@
                         </li>
 
                         <li>
-                            <a href="https://app.powerbi.com/view?r=eyJrIjoiZjIzOGM5YjYtNzg4NC00Njc0LTlmY2ItNzRkN2M1OGJjNjZmIiwidCI6Ijk0MmRiNmIyLWVjOWEtNDY4Mi05ZGY1LTM5OWYwMjE3NzFkMCJ9&pageName=ReportSectionbf7b9b10a01585009d73" data-fancybox data-type="iframe" class="hvr-underline-from-left">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiOWYwYjFmZjUtYTdlNC00OTU5LWIyZWUtMDFmMjcwODQ4ZDk1IiwidCI6Ijk0MmRiNmIyLWVjOWEtNDY4Mi05ZGY1LTM5OWYwMjE3NzFkMCJ9" data-fancybox data-type="iframe" class="hvr-underline-from-left">
                                 Demonstração
                             </a>
                         </li>
