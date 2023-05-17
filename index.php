@@ -21,25 +21,25 @@
 
 				<section id="banner">
 
-					<img src="assets/img/circle.png" alt="" class="circle-bg wow fadeIn">
+					<img src="assets/img/circle.png" alt="" class="circle-bg">
 
 					<div class="container container-big">
 						<div class="row">
 							<div class="col-12">
 
-								<img src="assets/img/banner.png" alt="BI" class="big-image wow fadeIn" data-wow-delay="1s">
+								<img data-src="assets/img/banner.png" alt="BI" class="lazy big-image">
 
 								<div class="wrap">
 									
-									<p class="sub text-medium-big wow fadeIn">
+									<p class="sub text-medium-big">
 										Missão
 									</p>
 
-									<h1 class="title title-big wow fadeIn" data-wow-delay=".2s">
+									<h1 class="title title-big">
 										Power BI
 									</h1>
 
-									<div class="title-medium title-slider swiper-container wow fadeIn" data-wow-delay=".4s">
+									<div class="title-medium title-slider swiper-container">
 										<div class="swiper-wrapper">
 
 											<div class="swiper-slide">
@@ -57,7 +57,7 @@
 										</div>
 									</div>
 
-									<a href="#advantages" class="sliding-link hollow-white-button wow fadeIn" data-wow-delay=".8s">
+									<a href="#advantages" class="sliding-link hollow-white-button">
 										
 										<span class="title-medium-small">
 											Quero conhecer
@@ -69,7 +69,7 @@
 
 									</a>
 
-									<img src="assets/img/microsoft-partner.png" alt="Microsoft Partner" class="logo-ms wow fadeInUp">
+									<img src="assets/img/microsoft-partner.png" alt="Microsoft Partner" class="logo-ms">
 
 								</div>
 
@@ -92,7 +92,7 @@
 								</h2>
 
 								<div class="video-wrapper wow fadeInUp">
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/AG9xPI_KTu0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="560" height="315" class="lazy" data-src="https://www.youtube.com/embed/AG9xPI_KTu0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 
 								<div class="buttons">
@@ -203,7 +203,7 @@
 
 										<div class="col-lg-6 col-lg-push-6 right">
 
-											<img src="assets/img/laptop.png" alt="Notebook com a tela do Safegold BI" class="wow fadeInUp">
+											<img data-src="assets/img/laptop.png" alt="Notebook com a tela do Safegold BI" class="wow fadeInUp lazy">
 
 										</div>
 
@@ -306,91 +306,91 @@
 								<div class="logos">
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/flaus.png" alt="Flaus - Reposição com qualidade original">
+										<img data-src="assets/img/clients/flaus.png" alt="Flaus - Reposição com qualidade original" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/tota.png" alt="Tota - Tradição com tecnologia">
+										<img data-src="assets/img/clients/tota.png" alt="Tota - Tradição com tecnologia" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/brasinha.png" alt="Agroquímica Brasinha">
+										<img data-src="assets/img/clients/brasinha.png" alt="Agroquímica Brasinha" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/brava.png" alt="Brava Securitizadora">
+										<img data-src="assets/img/clients/brava.png" alt="Brava Securitizadora" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/brazilian-pet-foods.png" alt="brazilian Pet Foods">
+										<img data-src="assets/img/clients/brazilian-pet-foods.png" alt="brazilian Pet Foods" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/griffin.png" alt="Griffin Capital S/A">
+										<img data-src="assets/img/clients/griffin.png" alt="Griffin Capital S/A" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/fribaz.png" alt="Fribaz Frigorífico">
+										<img data-src="assets/img/clients/fribaz.png" alt="Fribaz Frigorífico" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/juliatto.png" alt="Juliatto">
+										<img data-src="assets/img/clients/juliatto.png" alt="Juliatto" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/hds.png" alt="HDS - Sistemas de Energia">
+										<img data-src="assets/img/clients/hds.png" alt="HDS - Sistemas de Energia" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/balta.png" alt="Balta Securitizadora">
+										<img data-src="assets/img/clients/balta.png" alt="Balta Securitizadora" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/caluba.png" alt="Caluba Sementes">
+										<img data-src="assets/img/clients/caluba.png" alt="Caluba Sementes" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/noma.png" alt="Noma">
+										<img data-src="assets/img/clients/noma.png" alt="Noma" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/mjm.png" alt="Grupo MJM - Securitizadora">
+										<img data-src="assets/img/clients/mjm.png" alt="Grupo MJM - Securitizadora" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/von-der-volke.png" alt="Von Der Volke">
+										<img data-src="assets/img/clients/von-der-volke.png" alt="Von Der Volke" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/agropecuaria-nancy.png" alt="Agropecuária Nancy">
+										<img data-src="assets/img/clients/agropecuaria-nancy.png" alt="Agropecuária Nancy" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/smp.png" alt="SMP Móveis">
+										<img data-src="assets/img/clients/smp.png" alt="SMP Móveis" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/marpe.png" alt="Distribuidora Marpe - 25 anos">
+										<img data-src="assets/img/clients/marpe.png" alt="Distribuidora Marpe - 25 anos" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/personalite-invest.png" alt="Personalite Invest">
+										<img data-src="assets/img/clients/personalite-invest.png" alt="Personalite Invest" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/personalite-fidc.png" alt="Personalite FIDC">
+										<img data-src="assets/img/clients/personalite-fidc.png" alt="Personalite FIDC" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/dr-romao-youssef.png" alt="Dr. Romão Youssef - Cirurgia Plástica">
+										<img data-src="assets/img/clients/dr-romao-youssef.png" alt="Dr. Romão Youssef - Cirurgia Plástica" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/ipcp.png" alt="IPCP - Cirurgia Plástica">
+										<img data-src="assets/img/clients/ipcp.png" alt="IPCP - Cirurgia Plástica" class="lazy">
 									</div>
 
 									<div class="box wow fadeInUp">
-										<img src="assets/img/clients/facicredi.png" alt="Facicredi">
+										<img data-src="assets/img/clients/facicredi.png" alt="Facicredi" class="lazy">
 									</div>
 
 								</div>
@@ -414,13 +414,13 @@
 
 				<section id="contact">
 					
-					<img src="assets/img/contact.jpg" alt="Planeta" class="rellax bg" data-rellax-speed="-3" data-rellax-percentage="1">
+					<img data-src="assets/img/contact.jpg" alt="Planeta" class="lazy rellax bg" data-rellax-speed="-3" data-rellax-percentage="1">
 
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
 
-								<img src="assets/img/coin.png" alt="BI" class="coin rellax" data-rellax-speed="3" data-rellax-percentage="1">
+								<img data-src="assets/img/coin.png" alt="BI" class="lazy coin rellax" data-rellax-speed="3" data-rellax-percentage="1">
 
 								<h3 class="text-medium sub wow fadeInUp">
 									Acelere seu crescimento
@@ -501,8 +501,16 @@
 				<?php include('includes/popups.php'); ?>
 
 				<!-- scripts -->
-				<script src="assets/js/framework.js"></script>
-				<script src="assets/js/home.js" defer></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.5/swiper-bundle.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
+				<script src="assets/js/home.js"></script>
 
 				<!-- hotjar -->
 				<script>
